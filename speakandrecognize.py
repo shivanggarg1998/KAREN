@@ -22,7 +22,7 @@ def takecommand():
         r.adjust_for_ambient_noise(source,duration=1)
         #r.pause_threshold = 1
         print("Listening....")
-        audio = r.listen(source,phrase_time_limit=4)
+        audio = r.listen(source)
         #print("m done ")
     
     try :
