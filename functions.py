@@ -13,7 +13,7 @@ def wishme():
         sar.speak("Good aftenoon ! ")
     else:
         sar.speak("Good evening! ")
-    sar.speak("How may i help you ?")
+    sar.speak("It's Karen. How may i help you ?")
 
 
 def wiki(query):
@@ -30,4 +30,7 @@ def wiki(query):
         sar.speak(results)
     except :
         print("error- KAREN did not recognized what you said ")
-        sar.speak("I did not get it. Try saying that again")
+        sar.speak("Didn't get that. Say that again!")
+def tellMeAJoke():
+    sar.speak("A bear walks into a bar and says, Give me a whiskey and … cola. Why the big pause? asks the bartender. The bear shrugged. I’m not sure; I was born with them.")
+    
